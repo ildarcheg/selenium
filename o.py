@@ -4,6 +4,10 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from bs4 import BeautifulSoup
 from urllib.parse import quote
+from xvfbwrapper import Xvfb
+
+vdisplay = Xvfb()
+vdisplay.start()
 
 def get_driver():
 	url = "http://www.forum.mista.ru/index.php"
@@ -29,3 +33,4 @@ print("logging")
 authenticate(base_url, driver)
 print(driver.page_source)
 
+vdisplay.stop()
