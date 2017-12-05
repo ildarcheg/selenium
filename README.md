@@ -5,6 +5,10 @@ sudo apt-get -y upgrade
 python3 -V
 sudo apt-get install -y python3-pip
 sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+
+https://raw.githubusercontent.com/ildarcheg/selenium/master/install.sh
+
+
 pip install selenium
 
 wget -q -O https://chromedriver.storage.googleapis.com/2.33/chromedriver_linux64.zip
