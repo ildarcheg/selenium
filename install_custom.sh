@@ -9,6 +9,7 @@ sudo apt-get install -y unzip openjdk-8-jre-headless xvfb libxi6 libgconf-2-4
 sudo apt-get install python3-pip
 pip3 install --upgrade pip
 pip3 install selenium
+pip install xvfbwrapper
 
 wget https://chromedriver.storage.googleapis.com/2.33/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
