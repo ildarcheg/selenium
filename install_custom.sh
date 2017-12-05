@@ -10,11 +10,9 @@ pip3 install --upgrade pip
 pip3 install selenium
 
 wget https://chromedriver.storage.googleapis.com/2.33/chromedriver_linux64.zip
-
-wget -q -O https://chromedriver.storage.googleapis.com/2.33/chromedriver_linux64.zip
-unzip ~/chromedriver_linux64.zip -d ~/
-rm ~/chromedriver_linux64.zip
-sudo mv -f ~/chromedriver /usr/local/bin/chromedriver
+unzip chromedriver_linux64.zip
+rm -f chromedriver_linux64.zip
+sudo mv -f chromedriver /usr/local/bin/chromedriver
 sudo chown root:root /usr/local/bin/chromedriver
 sudo chmod 0755 /usr/local/bin/chromedriver
 
