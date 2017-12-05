@@ -10,6 +10,7 @@ sudo apt-get install python3-pip
 pip3 install --upgrade pip
 pip3 install selenium
 pip install xvfbwrapper
+sudo apt-get install xvfb x11-xkb-utils -y
 
 wget https://chromedriver.storage.googleapis.com/2.33/chromedriver_linux64.zip
 unzip chromedriver_linux64.zip
