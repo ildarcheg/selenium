@@ -3,6 +3,7 @@ sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get install -y python3-pip
 sudo apt-get install build-essential libssl-dev libffi-dev python-dev
+sudo apt-get install python3-bs4 -y
 
 sudo apt-get install -y unzip openjdk-8-jre-headless xvfb libxi6 libgconf-2-4
 sudo apt-get install python3-pip
