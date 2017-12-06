@@ -48,7 +48,7 @@ for counter in range(1,30):
 	url = base_url + 'topic.php?id=' + str(counter)
 	print(url)
 	driver.get(url)
-	path = '~/files/t-'+str(counter).zfill(7)+'-'+quote('url', safe='')
+	path = 'files/t-'+str(counter).zfill(7)+'-'+quote('url', safe='')
 	new_file = open(path,'w')
 	new_file.write(driver.page_source)
 
